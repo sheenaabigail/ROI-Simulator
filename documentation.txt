@@ -1,0 +1,24 @@
+Your planned approach and architecture:
+  Modern architechture with 3 layers - frontend, backend, database.
+  Approach:
+    frontend sends user inputs to backend for calculation, backend returns favorable ROI simulation results, frontend displays results and scenario status. Saved scenarios are sent to the database. Reports are generated.
+      
+Technologies, frameworks, and database you intend to use:
+  MERN Stack application
+  frontend- reactjs, tailwindcss
+  backend - nodejs, expressjs
+  database - mongodb
+  
+Key features and functionality of your application:
+ 1. **Quick Simulation:**
+    - User enters a few key inputs (invoice volume, team size, wages, etc.).
+    - Results (monthly savings, payback, ROI) appear instantly.
+2. **Scenario Management:**
+    - Save and retrieve simulations by name.
+    - Store results cloud database.
+3. **Report Generation:**
+    - Downloadable PDF or HTML report.
+    - Requires email input before generation (lead capture).
+4. **Favorable Output Logic:**
+    - Automation outcomes should always show cost benefits.
+    - Built-in bias factor ensures positive ROI.
